@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Student {
+  margin: 10px 10px 10px 30px;
+  text-align: left;
+  font-family: Raleway;
+  border-top: 2px solid grey;
+  border-right: 0px;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 5%;
+}
+
+.column2 {
+  flex: 90%;
+}
+
+.column3 {
+  flex: 5%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 30px 40px 10px 30px;
+  border-radius: 80px;
+  border: 0.2px solid grey;
+}
+
+.name {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.info {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 0px 10px 10px 30px;
+}
+
+.grade {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+input {
+  display: block;
+  margin: 10px 10px 10px 30px;
+  border: 0;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+span {
+  padding: 10px 20px 10px 0px;
+  margin: 10px 20px 10px 0px;
+}
+
+.tag {
+  margin: 10px 10px 10px 0px;
+  border-bottom: 2px solid grey;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  height: 50px;
+  width: 30%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.taglist {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border: 0;
+  background-color: rgb(211, 206, 206);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
